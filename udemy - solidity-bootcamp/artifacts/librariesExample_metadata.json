@@ -1,0 +1,101 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "sendToken",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "tokenBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"browser/Libraries.sol": "librariesExample"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"browser/Libraries.sol": {
+			"keccak256": "0x02889bc15cbe80497830b71d57def63194ac53413dac5d6682f48d47e2d9c95b",
+			"urls": [
+				"bzz-raw://2a27f3401f671d9b0298fee60fb86cb494e8c10ab3bc31f90ac985db0f7b3546",
+				"dweb:/ipfs/QmREZ4ePDqTG6L5hHrEKsQSPMZQZmAgyJCU7t4jmGip9mM"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/math/SafeMath.sol": {
+			"keccak256": "0xc9e29603b58008e9e360bd03b1d24b8fcb9bd0f2b2a2aeacea02037b3ab639b4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5940dcf8f131c289dd561606c87d86cdba78407ef350d4d7de1eeb64f37b38da",
+				"dweb:/ipfs/QmeViJZ2w9BbBdH8ky8ThPhhVzi3xCn9vRSsDEmC8NXJGX"
+			]
+		}
+	},
+	"version": 1
+}

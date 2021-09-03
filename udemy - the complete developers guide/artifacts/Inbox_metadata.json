@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "initialMessage",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "message",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "newMessage",
+						"type": "string"
+					}
+				],
+				"name": "setMessage",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"browser/Udemy - The Complete Developers Guide/01_Inbox.sol": "Inbox"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"browser/Udemy - The Complete Developers Guide/01_Inbox.sol": {
+			"keccak256": "0x7bdb12ef684604c423640a3bda1f4aee2e5bf358b3bf4697479d7dcce9746d24",
+			"urls": [
+				"bzz-raw://b3c6996c5dcc1e02104e989024ae261c0b4cffb4dc114594e5b2bf9a0c06f7c4",
+				"dweb:/ipfs/QmTMV8ZKi6KEvb9oT7CCrAp7CXWKv5woc5ht16HMxxmkpz"
+			]
+		}
+	},
+	"version": 1
+}

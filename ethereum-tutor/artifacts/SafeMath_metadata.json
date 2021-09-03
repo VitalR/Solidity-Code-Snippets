@@ -1,0 +1,39 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "Math operations with safety checks that throw on error",
+			"methods": {},
+			"title": "SafeMath"
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"browser/ether-tutor/SafeMath.sol": "SafeMath"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"browser/ether-tutor/SafeMath.sol": {
+			"keccak256": "0x9eba51219e008d52774085e94afb576d5a49ec488a243e94f72b56edc0720eaf",
+			"urls": [
+				"bzz-raw://d56af1a08e61418e2e90f963e5e2fc3915be7ed59f3124f0edb21434abccd803",
+				"dweb:/ipfs/QmaasPDrmZmQKx3QJrraSMAQpaebc99jiGsBwxmSmgoEk9"
+			]
+		}
+	},
+	"version": 1
+}

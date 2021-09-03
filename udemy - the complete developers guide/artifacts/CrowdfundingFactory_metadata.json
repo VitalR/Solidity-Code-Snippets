@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "deployedCrowdfunging",
+				"outputs": [
+					{
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getDeployedCrowdfunding",
+				"outputs": [
+					{
+						"name": "",
+						"type": "address[]"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_minimum",
+						"type": "uint256"
+					}
+				],
+				"name": "createCrowdfunding",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"browser/Udemy - The Complete Developers Guide/Crowdfunding.sol": "CrowdfundingFactory"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"browser/Udemy - The Complete Developers Guide/Crowdfunding.sol": {
+			"keccak256": "0xabb6a87dd957df081cff4fdb7423257c9c50f51b919a386dc2edb1d16415ca44",
+			"urls": [
+				"bzzr://fd993c5851be72fa6d414793dfa04099f67dfe039c9f6aedd061e4c33e776e2f"
+			]
+		}
+	},
+	"version": 1
+}

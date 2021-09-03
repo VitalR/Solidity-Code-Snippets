@@ -1,0 +1,121 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract Token",
+						"name": "_token",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_beneficiary",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_releaseTime",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "beneficiary",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "release",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "releaseTime",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "token",
+				"outputs": [
+					{
+						"internalType": "contract Token",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"browser/ether-tutor/TokenTimelock.sol": "TokenTimelock"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"browser/ether-tutor/Token.sol": {
+			"keccak256": "0xfc2386765224ef829b2b189e40a0daa9e1fe521341cf6158b88b3ce825f72c9d",
+			"urls": [
+				"bzz-raw://45c7a98466adf2177daf9bea63f1688efa3012685a15b463a0003c6c494b9460",
+				"dweb:/ipfs/QmPxDYcbkKZD91ZqHbT7ehmdzbmGbqLgMST47Q7sUhJSY5"
+			]
+		},
+		"browser/ether-tutor/TokenTimelock.sol": {
+			"keccak256": "0x7dc8efedb61ec08c9789b40ab7915fc7b0ba0cad4024690a7f1f86827ce5ee56",
+			"urls": [
+				"bzz-raw://dd0705b662dbd9f90c5a1b423533cce7d6352228f96212d7e1bcae7bf9ec7ac9",
+				"dweb:/ipfs/Qmf81zU5L1J7oyRREtskGi9veRuBHpELRTwzJQwH5jWu5W"
+			]
+		}
+	},
+	"version": 1
+}

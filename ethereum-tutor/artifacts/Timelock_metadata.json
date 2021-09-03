@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_beneficiary",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_releaseTime",
+						"type": "uint256"
+					}
+				],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "release",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"browser/ether-tutor/SavingsAccountTimelock.sol": "Timelock"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"browser/ether-tutor/SavingsAccountTimelock.sol": {
+			"keccak256": "0xe4901ca54973b08e1fed9b1cf5348ce5c7dbb05457367ec94bc096502a656c1b",
+			"urls": [
+				"bzz-raw://1b2fc25868e013ecaa0e7b00ca0e2544109fb4835808585c945efcf9372cbdeb",
+				"dweb:/ipfs/QmRCtWZqRzRA1vUgWfR5MdRpREU1CqErM3PaqyQg7mWTVV"
+			]
+		}
+	},
+	"version": 1
+}

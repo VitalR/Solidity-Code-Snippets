@@ -1,0 +1,102 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "payee",
+						"type": "address"
+					}
+				],
+				"name": "deposit",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "deposits",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "payee",
+						"type": "address"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"browser/ether-tutor/Escrow.sol": "Escrow"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"browser/ether-tutor/Escrow.sol": {
+			"keccak256": "0x7d468286e7f10b8b2c63f239bcba3c7b1352422cea5802664430243e0f5eb388",
+			"urls": [
+				"bzz-raw://1a9a7971658c73724cede04997a25b58aa4709c7c3e906cce41687c6af2a3047",
+				"dweb:/ipfs/QmQVn1G9T4oC6VAGFybS9jNF24twMyCyxgsjQsCwTAxZ8P"
+			]
+		},
+		"browser/ether-tutor/SafeMath.sol": {
+			"keccak256": "0x9eba51219e008d52774085e94afb576d5a49ec488a243e94f72b56edc0720eaf",
+			"urls": [
+				"bzz-raw://d56af1a08e61418e2e90f963e5e2fc3915be7ed59f3124f0edb21434abccd803",
+				"dweb:/ipfs/QmaasPDrmZmQKx3QJrraSMAQpaebc99jiGsBwxmSmgoEk9"
+			]
+		}
+	},
+	"version": 1
+}

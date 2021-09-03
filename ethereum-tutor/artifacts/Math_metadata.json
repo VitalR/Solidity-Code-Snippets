@@ -1,0 +1,37 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"browser/ether-tutor/06_LibMath.sol": "Math"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"browser/ether-tutor/06_LibMath.sol": {
+			"keccak256": "0x8d75ede39c6644cec800792331f66614b27d0515e5580483328c76d5927870eb",
+			"urls": [
+				"bzz-raw://fc9ba606894777a7b8fdd22a142dd604c2d443728c2b7293a76a2e9149698450",
+				"dweb:/ipfs/QmZHG7DUYP4n4Ww2fjUrkf2L9XDJrVGQZJv1U6afv7KL5H"
+			]
+		}
+	},
+	"version": 1
+}
